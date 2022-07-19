@@ -8,7 +8,8 @@
     "deploy": "sst deploy --stage=production",
     "remove": "sst remove",
     "console": "sst console",
-    "test": "vitest run"
+    "test": "vitest run",
+    "dev": "aws-vault exec dharmabumzee-personal -- npm run start"
   },
   "devDependencies": {
     "aws-cdk-lib": "2.24.0",
